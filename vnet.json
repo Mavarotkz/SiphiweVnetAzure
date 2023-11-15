@@ -1,0 +1,28 @@
+{
+    "name": "myVNet",
+    "id": "/subscriptions/5f6a991e-c264-44fb-b6f8-fd12c6a834eb/resourceGroups/az104-04-rg1-376NRBDWON/providers/Microsoft.Network/virtualNetworks/myVNet",
+    "etag": "W/\"954ec079-5a6a-407a-a284-094fd88ab4d1\"",
+    "type": "Microsoft.Network/virtualNetworks",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "provisioningState": "Succeeded",
+        "resourceGuid": "0a70d096-4bb4-40df-99c4-b66e3fa08fb4",
+        "addressSpace": {
+            "addressPrefixes": [
+                "10.40.0.0/20"
+            ]
+        },
+        "subnets": [
+            {
+                "name": "subnet0",
+                "id": "/subscriptions/5f6a991e-c264-44fb-b6f8-fd12c6a834eb/resourceGroups/az104-04-rg1-376NRBDWON/providers/Microsoft.Network/virtualNetworks/myVNet/subnets/subnet0",
+                "etag": "W/\"954ec079-5a6a-407a-a284-094fd88ab4d1\"",
+                "properties": {
+                    "provisioningState": "Succeeded"
+                },
+                "type": "Microsoft.Network/virtualNetworks/subnets"
+            }
+        ]
+    }
+}
